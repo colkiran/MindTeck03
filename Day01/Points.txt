@@ -1,0 +1,156 @@
+Prerequisites
+-------------
+should be familiar with these topics
+
+1. Basic data types in python
+   a. Number
+      1. integer
+      2. float
+      3. complex
+   b. strings
+   c. Boolean
+
+2. Operators
+   a. arithmetic 
+   b. Augmentor
+   c. comparison
+   d. logical
+   e. bitwise 
+
+3. Loops and control structures
+  a. if condition
+  b. for loop
+  c. while loop
+
+4. Data Structures
+   a. Lists
+   b. Dictionary
+   c. Tuples
+   e. Set
+
+To Create a Virtual Machine
+===========================
+python -m venv Mindteck
+
+cd MindTeck
+
+cd Scripts
+
+execute activate.bat
+
+Primitive Data Types
+--------------------
+Numbers
+  integer
+  float
+  complex
+Strings
+Boolean
+
+Data Structures
+---------------
+1. List
+2. Dictionary
+3. Tuple
+4. Set
+
+print(type(st))   - RTTI - Run time type identification
+
+class 'str'
+
+List
+----
+lists are similar to arrays
+
+what is an array?
+collection homogenous data
+memory allocation is contagious
+
+1. Lists are collection of heterogenous data
+2. Memory allocation is not contagious
+3. its an ordered collection
+4. it is sub scriptable
+5. it is mutable
+6. list are stored in [  ]
+
+Write a code to find if a string is a palindrome
+
+functions to manipulate a list
+append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+append
+copy
+pop
+
+sort
+----
+sort   - will sort the original list
+sorted - will take a copy of the list sorts it and returns it
+
+
+append - can add one element at a time into the list
+
+https://pythontutor.com/visualize.html#mode=edit
+
+DICTIONARY
+----------
+they are also called as associative array
+
+index =   0    1    2    3    4
+array = ['a', 'b', 'c', 'd', 'e']
+
+
+associative array = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e'}
+
+keys - 0, 1, 2, 3, 4
+
+values - 'a', 'b', 'c', 'd', 'e'
+
+
+emp = {'empid': 'EMP101', 'empname':'Jack', 'age': 35, 'desig': 'MGR', 'dept': 'finance'}
+
+keys - empid, empname, age, desig, dept
+values = EMP101, Jack, 35, MGR, finance
+
+Dictionary
+-----------
+1. keys are always unique
+
+2. keys are user defined
+
+3. dictionary is mutable
+
+4. dictionary is unordered collection 
+
+5. dictionaries are enclosed in {k1: v1, k2: v2....}
+
+functions to manipulate the dictionary
+---------------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+https://github.com/colkiran/MindTeck03
+
+
+
+
+Assignment
+==========
+1. months = ['dec', 'oct', 'aug', 'sep', 'jan', 'nov', 'mar', 'jul',  'feb', 'may', 'jun', 'apr']
+
+sort it like calendar month
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
