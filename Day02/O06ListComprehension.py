@@ -24,3 +24,30 @@ fruits = [
     ('strawberry', 450)
 ]
 
+prices = ["fruit" for fruit in  fruits]
+print(prices)
+
+print("-" * 60)
+prices = [fruit for fruit in fruits]
+print(prices)
+
+print("-" * 60)
+price = [fruit[0] for fruit in fruits]
+print(price)
+
+print("-" * 60)
+price = [fruit[1] for fruit in fruits]
+print(price)
+
+print("-" * 60)
+price = [fruit[1] * 0.9 for fruit in fruits]
+print(price)
+
+print("-" * 60)
+price = [fruit[1] * 0.75 for fruit in fruits]
+print(price)
+
+print("-" * 60)
+expnFruit = [(fruit[0], fruit[1], fruit[1] * 0.9, fruit[1] * 0.75)
+             for fruit in fruits if fruit[1] > 100]
+print(expnFruit)
