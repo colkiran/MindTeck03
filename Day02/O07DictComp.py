@@ -49,6 +49,21 @@ print("-" * 60)
 scores = [score for score in players.values()]
 print(f"scores :{scores}")
 
+print("-" * 60)
+scores = [scr for score in players.values() for scr in score]
+print(f"scores :{scores}")
+
+print("-" * 60)
+scores = [scr for score in players.values() for scr in score if scr >= 200]
+print(f"scores :{scores}")
+
+print("-" * 60)
+scores = {name: [scr for scr in score if scr >= 200]
+          for name, score in players.items()}
+
+print(f"scores :{scores}")
+
+
 """
 covert this list of list into a single list and apply a filter to print all runs >= 200
 
